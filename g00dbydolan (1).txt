@@ -8,7 +8,7 @@ game.StarterGui:SetCore("DevConsoleVisible", true)
 wait(4)
 print("Loaded.")
 wait(2)
-game.StarterGui:SetCore("DevConsoleVisible", false")	
+game.StarterGui:SetCore("DevConsoleVisible", false)	
 		game.StarterGui:SetCore("SendNotification", {
     Title = "c00lgui"; 
     Text = "Let's hack game " ..game.Players.LocalPlayer.Name; 
