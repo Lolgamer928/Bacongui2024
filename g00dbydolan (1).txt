@@ -1,12 +1,14 @@
-msg = Instance.new("Message")
-
-		msg.Parent = game.Workspace
-
-		msg.Text = "loaded..."
-
-		wait(3)
-
-		msg:remove()	
+game.StarterGui:SetCore("DevConsoleVisible", true)
+wait(1)
+print("Found ROBLOX Process...")
+game.StarterGui:SetCore("DevConsoleVisible", true)
+wait(2)
+print("Bypass Anticheat...")
+game.StarterGui:SetCore("DevConsoleVisible", true)
+wait(4)
+print("Loaded.")
+wait(2)
+game.StarterGui:SetCore("DevConsoleVisible", false")	
 		game.StarterGui:SetCore("SendNotification", {
     Title = "c00lgui"; 
     Text = "Let's hack game " ..game.Players.LocalPlayer.Name; 
